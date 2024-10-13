@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "desktopbuddy"
+version = "0.1.0"
+description = ""
+authors = ["chungchunwang <62127500+chungchunwang@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+browser-history = "^0.4.1"
+keyboard = "^0.13.5"
+webui2 = "^2.4.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
